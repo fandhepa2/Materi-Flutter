@@ -31,5 +31,17 @@ void main(){
   print(a  >= b);//false
   print(a  <= b);//true
 
+  var nilai1 =  '1';
+  var nilai2 =  1;
+
+  print(nilai1 == nilai2);
+ // (!) untuk membalik suatu nilai
+  bool x = true;
+  bool y = false;
+  print("Logical Operator");
+  print(x && y); //false
+  print(x || y);//true
+  print(!y);//false
+
 
 }

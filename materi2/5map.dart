@@ -72,7 +72,7 @@ void main(){
 
 
  // function map => untuk menlooping/perulangan sebanyak jumlah data yang ada di list
- // e merupakan penampung, bebas di isi e atau yang lainnya misal a atau b
+ // e merupakan penampung, bebas di isi (e) atau yang lainnya misal(a) atau (b)
  var listLaptop = daftarLaptop1.map((e) => e['merk']).toList();
  print(listLaptop);
 

@@ -28,44 +28,25 @@ void main() {
   String alamat = "Jl. Rajawali";
   bool statusBuka = true;
   List<Map<String, dynamic>> daftarMakanan = [
-    {
-      'nama' : 'Nasi Ayam Geprek',
-      'harga' : 15000
-    },
-    {
-      'nama' : 'Nasi Bakar',
-      'harga' : 20000
-    },
-    {
-      'nama' : 'Sate Ayam',
-      'harga' : 15000
-    }
+    {'nama': 'Nasi Ayam Geprek', 
+    'harga': 15000},
+    {'nama': 'Nasi Bakar', 'harga': 20000},
+    {'nama': 'Sate Ayam', 'harga': 15000}
   ];
   List<Map<String, dynamic>> daftarMinuman = [
-    {
-      'nama' : 'Es teh manis',
-      'harga' : 5000
-    },
-    {
-      'nama' : 'Jus Mangga',
-      'harga' : 6000
-    },
-    {
-      'nama' : 'Es Jeruk',
-      'harga' : 5000
-    }
+    {'nama': 'Es teh manis', 'harga': 5000},
+    {'nama': 'Jus Mangga', 'harga': 6000},
+    {'nama': 'Es Jeruk', 'harga': 5000}
   ];
 
   Map<String, dynamic> restoran = {
-    'nama' : nama,
-    'tahunBerdiri' : tahunBediri,
-    'alamat' : alamat,
-    'daftarMakanan' : daftarMakanan,
-    'daftarMinuman' : daftarMinuman,
-    'statusBuka' : statusBuka
+    'nama': nama,
+    'tahunBerdiri': tahunBediri,
+    'alamat': alamat,
+    'daftarMakanan': daftarMakanan,
+    'daftarMinuman': daftarMinuman,
+    'statusBuka': statusBuka
   };
 
   print(restoran);
-
-
 }

@@ -1,10 +1,10 @@
-void main (){
-// type data number 
+void main() {
+// type data number
 // diawali dgn keyword num
-  num angka1 = 20;//bilangan  bulat
-  num angka2 =20.6;//bilangan desimal
+  num angka1 = 20; //bilangan  bulat
+  num angka2 = 20.6; //bilangan desimal
 
-  //type data integer 
+  //type data integer
   int angka3 = 25;
 
   //type data double
@@ -28,7 +28,7 @@ void main (){
 
   //pembulatan ke bawah
   print(angka6.floor());
- //pembulatan ke atas
+  //pembulatan ke atas
   print(angka6.ceil());
 //pembulatan nilai ke terdekat (Lebih dekat ke naik atau ke turun)
   print(angka6.round());
@@ -38,5 +38,4 @@ void main (){
 
   // pembulatan presisi
   print(angka6.toStringAsPrecision(3));
-
 }

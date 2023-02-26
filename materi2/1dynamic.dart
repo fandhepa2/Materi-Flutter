@@ -4,18 +4,18 @@ void main() {
 
   var nama = "fandhepa";
   var x = 20;
-  var sayur = ['bayam','kangkung','lodeh'];
-  var isBoy =  true;
+  var sayur = ['bayam', 'kangkung', 'lodeh'];
+  var isBoy = true;
 
-
-  print("Nilai X:"+ x.toString());
+  print("Nilai X:" + x.toString());
   print("nILAI X 2 $x");
   print("Saya adalah ${x}");
   print("============================");
 
-  print("Halo nama saya :"+ nama);
+  print("Halo nama saya :" + nama);
   print("Nama sya adalah $nama");
   print("Saya adalah ${nama} \nNo.Hp : 081271925723");
 
-  print(x.runtimeType); //runTimeType untuk mengecek tipe data dari nilai suatu variabel
+  print(x
+      .runtimeType); //runTimeType untuk mengecek tipe data dari nilai suatu variabel
 }

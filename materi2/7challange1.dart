@@ -28,8 +28,7 @@ void main() {
   String alamat = "Jl. Rajawali";
   bool statusBuka = true;
   List<Map<String, dynamic>> daftarMakanan = [
-    {'nama': 'Nasi Ayam Geprek', 
-    'harga': 15000},
+    {'nama': 'Nasi Ayam Geprek','harga': 15000},
     {'nama': 'Nasi Bakar', 'harga': 20000},
     {'nama': 'Sate Ayam', 'harga': 15000}
   ];

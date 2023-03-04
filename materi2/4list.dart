@@ -7,7 +7,9 @@ void main() {
   ]; // List yang niainya bertipe String
   //urutan index dimulai dari 0
 
-  List data = ['Dat1', 9, 'Data', 10]; // Liat yang nilainya bertipe dynamic
+  List data = [
+    'Data1', 9, 
+    'Data', 10]; // List yang nilainya bertipe dynamic
 
   List<num> ipk = [7, 4];
 
@@ -28,7 +30,7 @@ void main() {
   print("mahasiswa tambah isinya ${mahasiswa}");
 
   // menambahkan beberapa isi pada List sekaligus
-  List<String> mahasiswaBaru = ['lala', 'Novi', 'Budi'];
+  List<String> mahasiswaBaru = ['lala', 'Novi', 'rima'];
   mahasiswa.addAll(mahasiswaBaru);
 
   print("Mahasiswa Baru ${mahasiswa}");

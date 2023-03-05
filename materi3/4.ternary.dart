@@ -6,6 +6,7 @@ void main() {
   //menampilkan apakah nilai yang nilai yang di input ganjil /genap
   print(nilai % 2 == 0 ? "Genap" : "Ganjil");
 
+//jika username sama dengan sydemy maka nilai dari variabel username sama dengan ya jika tidak maka nilai dari ooutpu tidak
   username == "sydemy" ? output = "ya" : output = "tidak";
   //username di print secara langsung
   print(username == "sydemy" ? output = "ya" : output = "tidak");

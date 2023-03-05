@@ -1,15 +1,13 @@
 void main() {
 // tipe data List, penulisannya di aswali dengan keyword List
   List<String> mahasiswa = [
-    'Anang',
+    'Anang', // index
     'Budi',
     'Chika'
   ]; // List yang niainya bertipe String
   //urutan index dimulai dari 0
 
-  List data = [
-    'Data1', 9, 
-    'Data', 10]; // List yang nilainya bertipe dynamic
+  List data = ['Data1', 9, 'Data', 10]; // List yang nilainya bertipe dynamic
 
   List<num> ipk = [7, 4];
 

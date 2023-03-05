@@ -16,7 +16,7 @@ void main() {
   //i merupakan definisi
   // i = 1 merupakan definisi mulai awal atau batas awal 1
   // ++ merupakan kondisi
-  // for (int i = 1; i <= n; i = i + 2) {
+  // for (int i = 1; i <= n; i++) {
   //   print("sydemy ${i}");
   // }
 
@@ -24,13 +24,13 @@ void main() {
     print("sydemy ${i}");
   }
   //decrement (turun turun nilainya)
-  // for (int i = n; i >= 1; i--) {
-  //   print("sydemy ${i}");
-  // }
+  for (int i = n; i >= 1; i--) {
+    print("sydemy ${i}");
+  }
 
   // perulangan for untuk data list
-  // List<String> daftarMakanan = ["sate", "nasgor", "bakso"];
-  // for (int c = 0; c < daftarMakanan.length; c++) {
-  //   print(daftarMakanan[c]);
-  // }
+  List<String> daftarMakanan = ["sate", "nasgor", "bakso"];
+  for (int c = 0; c < daftarMakanan.length; c++) {
+    print(daftarMakanan[c]);
+  }
 }
